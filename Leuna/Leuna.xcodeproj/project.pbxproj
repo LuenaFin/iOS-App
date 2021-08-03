@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7345A30B26B952B700C087D6 /* LeunaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345A30A26B952B700C087D6 /* LeunaApp.swift */; };
+		7345A30D26B952B700C087D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345A30C26B952B700C087D6 /* ContentView.swift */; };
+		7345A30F26B952B900C087D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7345A30E26B952B900C087D6 /* Assets.xcassets */; };
+		7345A31226B952B900C087D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7345A31126B952B900C087D6 /* Preview Assets.xcassets */; };
+		7345A31D26B952B900C087D6 /* LeunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345A31C26B952B900C087D6 /* LeunaTests.swift */; };
+		7345A32826B952B900C087D6 /* LeunaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345A32726B952B900C087D6 /* LeunaUITests.swift */; };
+		7345A33826B952F800C087D6 /* ScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345A33726B952F800C087D6 /* ScreenOne.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7345A31926B952B900C087D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7345A2FF26B952B700C087D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7345A30626B952B700C087D6;
+			remoteInfo = Leuna;
+		};
+		7345A32426B952B900C087D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7345A2FF26B952B700C087D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7345A30626B952B700C087D6;
+			remoteInfo = Leuna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7345A30726B952B700C087D6 /* Leuna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leuna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7345A30A26B952B700C087D6 /* LeunaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeunaApp.swift; sourceTree = "<group>"; };
+		7345A30C26B952B700C087D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7345A30E26B952B900C087D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7345A31126B952B900C087D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7345A31326B952B900C087D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7345A31826B952B900C087D6 /* LeunaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeunaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7345A31C26B952B900C087D6 /* LeunaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeunaTests.swift; sourceTree = "<group>"; };
+		7345A31E26B952B900C087D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7345A32326B952B900C087D6 /* LeunaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeunaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7345A32726B952B900C087D6 /* LeunaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeunaUITests.swift; sourceTree = "<group>"; };
+		7345A32926B952B900C087D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7345A33726B952F800C087D6 /* ScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenOne.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7345A30426B952B700C087D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345A31526B952B900C087D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345A32026B952B900C087D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7345A2FE26B952B700C087D6 = {
+			isa = PBXGroup;
+			children = (
+				7345A30926B952B700C087D6 /* Leuna */,
+				7345A31B26B952B900C087D6 /* LeunaTests */,
+				7345A32626B952B900C087D6 /* LeunaUITests */,
+				7345A30826B952B700C087D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7345A30826B952B700C087D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7345A30726B952B700C087D6 /* Leuna.app */,
+				7345A31826B952B900C087D6 /* LeunaTests.xctest */,
+				7345A32326B952B900C087D6 /* LeunaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7345A30926B952B700C087D6 /* Leuna */ = {
+			isa = PBXGroup;
+			children = (
+				7345A33626B952D800C087D6 /* App */,
+				7345A33526B952CF00C087D6 /* Views */,
+				7345A30E26B952B900C087D6 /* Assets.xcassets */,
+				7345A31326B952B900C087D6 /* Info.plist */,
+				7345A31026B952B900C087D6 /* Preview Content */,
+			);
+			path = Leuna;
+			sourceTree = "<group>";
+		};
+		7345A31026B952B900C087D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7345A31126B952B900C087D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7345A31B26B952B900C087D6 /* LeunaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7345A31C26B952B900C087D6 /* LeunaTests.swift */,
+				7345A31E26B952B900C087D6 /* Info.plist */,
+			);
+			path = LeunaTests;
+			sourceTree = "<group>";
+		};
+		7345A32626B952B900C087D6 /* LeunaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7345A32726B952B900C087D6 /* LeunaUITests.swift */,
+				7345A32926B952B900C087D6 /* Info.plist */,
+			);
+			path = LeunaUITests;
+			sourceTree = "<group>";
+		};
+		7345A33526B952CF00C087D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7345A30C26B952B700C087D6 /* ContentView.swift */,
+				7345A33726B952F800C087D6 /* ScreenOne.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7345A33626B952D800C087D6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7345A30A26B952B700C087D6 /* LeunaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7345A30626B952B700C087D6 /* Leuna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7345A32C26B952B900C087D6 /* Build configuration list for PBXNativeTarget "Leuna" */;
+			buildPhases = (
+				7345A30326B952B700C087D6 /* Sources */,
+				7345A30426B952B700C087D6 /* Frameworks */,
+				7345A30526B952B700C087D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leuna;
+			productName = Leuna;
+			productReference = 7345A30726B952B700C087D6 /* Leuna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7345A31726B952B900C087D6 /* LeunaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7345A32F26B952B900C087D6 /* Build configuration list for PBXNativeTarget "LeunaTests" */;
+			buildPhases = (
+				7345A31426B952B900C087D6 /* Sources */,
+				7345A31526B952B900C087D6 /* Frameworks */,
+				7345A31626B952B900C087D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7345A31A26B952B900C087D6 /* PBXTargetDependency */,
+			);
+			name = LeunaTests;
+			productName = LeunaTests;
+			productReference = 7345A31826B952B900C087D6 /* LeunaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7345A32226B952B900C087D6 /* LeunaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7345A33226B952B900C087D6 /* Build configuration list for PBXNativeTarget "LeunaUITests" */;
+			buildPhases = (
+				7345A31F26B952B900C087D6 /* Sources */,
+				7345A32026B952B900C087D6 /* Frameworks */,
+				7345A32126B952B900C087D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7345A32526B952B900C087D6 /* PBXTargetDependency */,
+			);
+			name = LeunaUITests;
+			productName = LeunaUITests;
+			productReference = 7345A32326B952B900C087D6 /* LeunaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7345A2FF26B952B700C087D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7345A30626B952B700C087D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7345A31726B952B900C087D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7345A30626B952B700C087D6;
+					};
+					7345A32226B952B900C087D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7345A30626B952B700C087D6;
+					};
+				};
+			};
+			buildConfigurationList = 7345A30226B952B700C087D6 /* Build configuration list for PBXProject "Leuna" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7345A2FE26B952B700C087D6;
+			productRefGroup = 7345A30826B952B700C087D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7345A30626B952B700C087D6 /* Leuna */,
+				7345A31726B952B900C087D6 /* LeunaTests */,
+				7345A32226B952B900C087D6 /* LeunaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7345A30526B952B700C087D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7345A31226B952B900C087D6 /* Preview Assets.xcassets in Resources */,
+				7345A30F26B952B900C087D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345A31626B952B900C087D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345A32126B952B900C087D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7345A30326B952B700C087D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7345A33826B952F800C087D6 /* ScreenOne.swift in Sources */,
+				7345A30D26B952B700C087D6 /* ContentView.swift in Sources */,
+				7345A30B26B952B700C087D6 /* LeunaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345A31426B952B900C087D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7345A31D26B952B900C087D6 /* LeunaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7345A31F26B952B900C087D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7345A32826B952B900C087D6 /* LeunaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7345A31A26B952B900C087D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7345A30626B952B700C087D6 /* Leuna */;
+			targetProxy = 7345A31926B952B900C087D6 /* PBXContainerItemProxy */;
+		};
+		7345A32526B952B900C087D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7345A30626B952B700C087D6 /* Leuna */;
+			targetProxy = 7345A32426B952B900C087D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7345A32A26B952B900C087D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7345A32B26B952B900C087D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7345A32D26B952B900C087D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Leuna/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Leuna/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arshin.Leuna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7345A32E26B952B900C087D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Leuna/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Leuna/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arshin.Leuna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7345A33026B952B900C087D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeunaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arshin.LeunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leuna.app/Leuna";
+			};
+			name = Debug;
+		};
+		7345A33126B952B900C087D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeunaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arshin.LeunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leuna.app/Leuna";
+			};
+			name = Release;
+		};
+		7345A33326B952B900C087D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeunaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arshin.LeunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leuna;
+			};
+			name = Debug;
+		};
+		7345A33426B952B900C087D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeunaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arshin.LeunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leuna;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7345A30226B952B700C087D6 /* Build configuration list for PBXProject "Leuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7345A32A26B952B900C087D6 /* Debug */,
+				7345A32B26B952B900C087D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7345A32C26B952B900C087D6 /* Build configuration list for PBXNativeTarget "Leuna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7345A32D26B952B900C087D6 /* Debug */,
+				7345A32E26B952B900C087D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7345A32F26B952B900C087D6 /* Build configuration list for PBXNativeTarget "LeunaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7345A33026B952B900C087D6 /* Debug */,
+				7345A33126B952B900C087D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7345A33226B952B900C087D6 /* Build configuration list for PBXNativeTarget "LeunaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7345A33326B952B900C087D6 /* Debug */,
+				7345A33426B952B900C087D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7345A2FF26B952B700C087D6 /* Project object */;
+}
