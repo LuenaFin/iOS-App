@@ -11,8 +11,9 @@ import SwiftUI
 struct LeunaApp: App {
     var body: some Scene {
         WindowGroup {
+            AmeritradeLoginView()
 //            ContentView()
-            ScreenOne()
+//            ScreenOne()
         }
     }
 }
