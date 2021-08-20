@@ -20,6 +20,8 @@
 		73D60D8726BCE592004B7840 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D60D8626BCE592004B7840 /* AuthManager.swift */; };
 		73D60D8926BCE5E7004B7840 /* AmeritradeOAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D60D8826BCE5E7004B7840 /* AmeritradeOAuthView.swift */; };
 		73D60D8B26BCE635004B7840 /* AmeritradeMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D60D8A26BCE635004B7840 /* AmeritradeMainScreen.swift */; };
+		ECCAA4E226C7818E00F66AB3 /* ScreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAA4E126C7818E00F66AB3 /* ScreenThree.swift */; };
+		ECCAA4E426C7969A00F66AB3 /* ScreenFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAA4E326C7969900F66AB3 /* ScreenFour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		73D60D8626BCE592004B7840 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		73D60D8826BCE5E7004B7840 /* AmeritradeOAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeritradeOAuthView.swift; sourceTree = "<group>"; };
 		73D60D8A26BCE635004B7840 /* AmeritradeMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeritradeMainScreen.swift; sourceTree = "<group>"; };
+		ECCAA4E126C7818E00F66AB3 /* ScreenThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenThree.swift; sourceTree = "<group>"; };
+		ECCAA4E326C7969900F66AB3 /* ScreenFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFour.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +113,12 @@
 		7345A30926B952B700C087D6 /* Leuna */ = {
 			isa = PBXGroup;
 			children = (
+				7345A30E26B952B900C087D6 /* Assets.xcassets */,
 				7345A33626B952D800C087D6 /* App */,
 				7345A33E26B954D100C087D6 /* Models */,
 				7345A33526B952CF00C087D6 /* Views */,
 				7345A33D26B954B800C087D6 /* View Models */,
 				7345A33F26B954DF00C087D6 /* Repository */,
-				7345A30E26B952B900C087D6 /* Assets.xcassets */,
 				7345A31026B952B900C087D6 /* Preview Content */,
 				7345A31326B952B900C087D6 /* Info.plist */,
 			);
@@ -155,6 +159,8 @@
 				73D60D8326BBB459004B7840 /* WebView.swift */,
 				7345A33726B952F800C087D6 /* ScreenOne.swift */,
 				7345A33926B9546A00C087D6 /* ScreenTwo.swift */,
+				ECCAA4E126C7818E00F66AB3 /* ScreenThree.swift */,
+				ECCAA4E326C7969900F66AB3 /* ScreenFour.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +343,8 @@
 				7345A33C26B954B200C087D6 /* LoginView.swift in Sources */,
 				73D60D8926BCE5E7004B7840 /* AmeritradeOAuthView.swift in Sources */,
 				7345A30B26B952B700C087D6 /* LeunaApp.swift in Sources */,
+				ECCAA4E226C7818E00F66AB3 /* ScreenThree.swift in Sources */,
+				ECCAA4E426C7969A00F66AB3 /* ScreenFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
