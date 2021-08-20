@@ -17,6 +17,9 @@
 		7345A33A26B9546A00C087D6 /* ScreenTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345A33926B9546A00C087D6 /* ScreenTwo.swift */; };
 		7345A33C26B954B200C087D6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7345A33B26B954B200C087D6 /* LoginView.swift */; };
 		73D60D8426BBB459004B7840 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D60D8326BBB459004B7840 /* WebView.swift */; };
+		73D60D8726BCE592004B7840 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D60D8626BCE592004B7840 /* AuthManager.swift */; };
+		73D60D8926BCE5E7004B7840 /* AmeritradeOAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D60D8826BCE5E7004B7840 /* AmeritradeOAuthView.swift */; };
+		73D60D8B26BCE635004B7840 /* AmeritradeMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D60D8A26BCE635004B7840 /* AmeritradeMainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		7345A33926B9546A00C087D6 /* ScreenTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTwo.swift; sourceTree = "<group>"; };
 		7345A33B26B954B200C087D6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		73D60D8326BBB459004B7840 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		73D60D8626BCE592004B7840 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		73D60D8826BCE5E7004B7840 /* AmeritradeOAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeritradeOAuthView.swift; sourceTree = "<group>"; };
+		73D60D8A26BCE635004B7840 /* AmeritradeMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeritradeMainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				7345A30C26B952B700C087D6 /* ContentView.swift */,
-				7345A33B26B954B200C087D6 /* LoginView.swift */,
+				73D60D8526BCE573004B7840 /* Login Flow */,
 				73D60D8326BBB459004B7840 /* WebView.swift */,
 				7345A33726B952F800C087D6 /* ScreenOne.swift */,
 				7345A33926B9546A00C087D6 /* ScreenTwo.swift */,
@@ -180,6 +186,17 @@
 			children = (
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		73D60D8526BCE573004B7840 /* Login Flow */ = {
+			isa = PBXGroup;
+			children = (
+				7345A33B26B954B200C087D6 /* LoginView.swift */,
+				73D60D8A26BCE635004B7840 /* AmeritradeMainScreen.swift */,
+				73D60D8826BCE5E7004B7840 /* AmeritradeOAuthView.swift */,
+				73D60D8626BCE592004B7840 /* AuthManager.swift */,
+			);
+			path = "Login Flow";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,10 +329,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7345A33A26B9546A00C087D6 /* ScreenTwo.swift in Sources */,
+				73D60D8B26BCE635004B7840 /* AmeritradeMainScreen.swift in Sources */,
+				73D60D8726BCE592004B7840 /* AuthManager.swift in Sources */,
 				7345A33826B952F800C087D6 /* ScreenOne.swift in Sources */,
 				7345A30D26B952B700C087D6 /* ContentView.swift in Sources */,
 				73D60D8426BBB459004B7840 /* WebView.swift in Sources */,
 				7345A33C26B954B200C087D6 /* LoginView.swift in Sources */,
+				73D60D8926BCE5E7004B7840 /* AmeritradeOAuthView.swift in Sources */,
 				7345A30B26B952B700C087D6 /* LeunaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +494,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Leuna/Preview Content\"";
 				DEVELOPMENT_TEAM = 4JK2HVY3H6;
 				ENABLE_PREVIEWS = YES;
@@ -483,10 +504,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Arshin.Leuna;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Intechgrity.Leuna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -496,6 +517,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Leuna/Preview Content\"";
 				DEVELOPMENT_TEAM = 4JK2HVY3H6;
 				ENABLE_PREVIEWS = YES;
@@ -505,10 +527,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Arshin.Leuna;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Intechgrity.Leuna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
