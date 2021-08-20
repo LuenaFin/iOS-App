@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ScreenThree: View {
     @State var numShares: Int = 0
@@ -36,6 +37,7 @@ struct ScreenThree: View {
                                     .foregroundColor(.green)
                                     .font(.system(size: 15))
                                     .fontWeight(.semibold)
+                                
                                 Image(systemName: "chevron.down")
                                     .resizable()
                                     .foregroundColor(.green)
@@ -82,7 +84,7 @@ struct ScreenThree: View {
                                 .multilineTextAlignment(.trailing)
                                 .frame(width: 60, height: 10, alignment: .trailing)
                                 .foregroundColor(.white)
-                                .keyboardType(UIKeyboardType.decimalPad)
+                                .keyboardType(.numberPad) // not decimalPad since we might not support fractional shares
 
                     })
                         .padding(.vertical, 20)
@@ -117,7 +119,6 @@ struct ScreenThree: View {
 
                     })
                         .padding(.vertical, 20)
-
                         .overlay(Rectangle()
                                     .foregroundColor(Color(#colorLiteral(red: 0.1313615143, green: 0.1313910186, blue: 0.13135764, alpha: 0.9429324403)))
                                     .frame(width: 390, height: 1.5, alignment: .top), alignment: .bottom)
@@ -165,12 +166,18 @@ struct ScreenThree: View {
                                 .foregroundColor(.green)
                                 
                     )
+                        .padding(.bottom)
                     
             })
                 
                
         })
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+            .frame(
+                maxWidth: .infinity,
+                maxHeight: .infinity,
+                alignment: .topLeading
+            )
+            .padding(.horizontal)
             .background(
                 Color.black
                     .ignoresSafeArea()
@@ -183,4 +190,5 @@ struct ScreenThree_Previews: PreviewProvider {
         ScreenThree()
     }
 }
+
 
