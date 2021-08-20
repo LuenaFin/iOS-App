@@ -10,8 +10,8 @@ import Combine
 
 struct ScreenThree: View {
     @State private var numShares = ""
-    @State private var marketPrice: Int = 0 //Cost per share of that certain stock
-    var estimatedCost: Int { Int(numShares) ?? 0 * marketPrice }//Estimated cost based on numShares and marketPrice
+    @State private var marketPrice: Double = 145.68 // 0.00 //Cost per share of that certain stock
+    @State var estimatedCost: Double = 0.00 // { Int(numShares) ?? 0 * marketPrice } //Estimated cost based on numShares and marketPrice
     var isFractionalSharesEnabled: Bool = false
     
     var body: some View {
@@ -71,7 +71,6 @@ struct ScreenThree: View {
                         alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/,
                         spacing: nil,
                         content: {
-
                             Text("Number of Shares")
                                 .fontWeight(.medium)
                                 .font(.system(size: 16))
@@ -82,7 +81,8 @@ struct ScreenThree: View {
                             
                             TextField("0", text: $numShares)
                                 .multilineTextAlignment(.trailing)
-                                .frame(width: 60, height: 10, alignment: .trailing)
+                                .frame(height: 10)
+                                .frame(minWidth: 100)
                                 .foregroundColor(.white)
                                 .keyboardType(.numberPad) // not decimalPad since we might not support fractional shares
                                 .onReceive(Just(numShares)) { newValue in
@@ -98,6 +98,9 @@ struct ScreenThree: View {
                                             self.numShares = "\(filtered)"
                                         }
                                     }
+                                    if let shares = Double(self.numShares) {
+                                        self.estimatedCost = shares * self.marketPrice
+                                    } else if newValue == "" { self.estimatedCost = 0 }
                                 }
 
                     })
@@ -121,14 +124,11 @@ struct ScreenThree: View {
                                 .foregroundColor(.green)
 
                             Spacer()
+                                .frame(minWidth: 10)
                             
-                            TextField("$",
-                                      value: $marketPrice,
-                                      formatter: NumberFormatter())
-                                .multilineTextAlignment(.trailing)
-                                .frame(width: 60, height: 10, alignment: .trailing)
+                            Text("$\(marketPrice, specifier: "%.2f")")
+                                .frame(height: 10)
                                 .foregroundColor(.white)
-                                .keyboardType(UIKeyboardType.decimalPad)
 
                     })
                         .padding(.vertical, 20)
@@ -136,31 +136,21 @@ struct ScreenThree: View {
                                     .foregroundColor(Color(#colorLiteral(red: 0.1313615143, green: 0.1313910186, blue: 0.13135764, alpha: 0.9429324403)))
                                     .frame(width: 390, height: 1.5, alignment: .top), alignment: .bottom)
                     //Estimated Cost
-                    HStack(
-                        alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/,
-                        spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/,
-                        content: {
-
-                            Text("Estimated Cost")
+                    HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/) {
+                        Text("Estimated Cost")
                                 .fontWeight(.medium)
                                 .font(.system(size: 16))
                                 .foregroundColor(.white)
                                 .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
-
-                            Spacer()
-                            
-                            TextField("",
-                                      value: $marketPrice,
-                                      formatter: NumberFormatter())
-                                .multilineTextAlignment(.trailing)
-                                .frame(width: 60, height: 10, alignment: .trailing)
+                        Spacer()
+                            .frame(minWidth: 10)
+                        Text("$\(estimatedCost, specifier: "%.2f")")
+                                .frame(height: 10)
                                 .foregroundColor(.white)
-                                .keyboardType(UIKeyboardType.decimalPad)
 
-                    })
-                        .padding(.vertical, 20)
-
-                        .overlay(Rectangle()
+                    }
+                    .padding(.vertical, 20)
+                    .overlay(Rectangle()
                                     .foregroundColor(Color(#colorLiteral(red: 0.1313615143, green: 0.1313910186, blue: 0.13135764, alpha: 0.9429324403)))
                                     .frame(width: 390, height: 1.5, alignment: .top), alignment: .bottom)
                     
