@@ -9,9 +9,11 @@ import SwiftUI
 import Combine
 
 struct ScreenThree: View {
-    @State var numShares: Int = 0
-    @State var marketPrice: Int = 0 //Cost per share of that certain stock
-    var estimatedCost: Int { numShares * marketPrice }//Estimated cost based on numShares and marketPrice
+    @State private var numShares = ""
+    @State private var marketPrice: Int = 0 //Cost per share of that certain stock
+    var estimatedCost: Int { Int(numShares) ?? 0 * marketPrice }//Estimated cost based on numShares and marketPrice
+    var isFractionalSharesEnabled: Bool = false
+    
     var body: some View {
         
         VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/,
