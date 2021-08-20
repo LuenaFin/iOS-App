@@ -80,9 +80,7 @@ struct ScreenThree: View {
 
                             Spacer()
                             
-                            TextField("",
-                                      value: $numShares,
-                                      formatter: NumberFormatter())
+                            TextField("0", text: $numShares)
                                 .multilineTextAlignment(.trailing)
                                 .frame(width: 60, height: 10, alignment: .trailing)
                                 .foregroundColor(.white)
