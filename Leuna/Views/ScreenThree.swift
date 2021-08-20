@@ -85,10 +85,23 @@ struct ScreenThree: View {
                                 .frame(width: 60, height: 10, alignment: .trailing)
                                 .foregroundColor(.white)
                                 .keyboardType(.numberPad) // not decimalPad since we might not support fractional shares
+                                .onReceive(Just(numShares)) { newValue in
+                                    if isFractionalSharesEnabled &&  newValue.occurrencesOf(string: ".") > 1 {
+                                        let decimalRemovedText = newValue.dropLast()
+                                        self.numShares = String(decimalRemovedText)
+                                    } else if !isFractionalSharesEnabled {
+                                        let allDecimalsRemoved = newValue.replacingOccurrences(of: ".", with: "")
+                                        self.numShares = allDecimalsRemoved
+                                    } else {
+                                        let filtered = newValue.filter { "0123456789.".contains($0) }
+                                        if filtered != newValue {
+                                            self.numShares = "\(filtered)"
+                                        }
+                                    }
+                                }
 
                     })
                         .padding(.vertical, 20)
-
                         .overlay(Rectangle()
                                     .foregroundColor(Color(#colorLiteral(red: 0.1313615143, green: 0.1313910186, blue: 0.13135764, alpha: 0.9429324403)))
                                     .frame(width: 390, height: 1.5, alignment: .top), alignment: .bottom)
