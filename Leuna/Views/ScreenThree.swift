@@ -85,6 +85,7 @@ struct ScreenThree: View {
                                 .frame(minWidth: 100)
                                 .foregroundColor(.white)
                                 .keyboardType(.numberPad) // not decimalPad since we might not support fractional shares
+                                
                                 .onReceive(Just(numShares)) { newValue in
                                     if isFractionalSharesEnabled &&  newValue.occurrencesOf(string: ".") > 1 {
                                         let decimalRemovedText = newValue.dropLast()
