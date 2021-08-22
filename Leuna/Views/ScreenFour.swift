@@ -136,9 +136,6 @@ struct ScreenFour: View {
                         .overlay(Rectangle()
                                     .foregroundColor(Color(#colorLiteral(red: 0.1313615143, green: 0.1313910186, blue: 0.13135764, alpha: 0.9429324403)))
                                     .frame(width: 390, height: 1.5, alignment: .top), alignment: .bottom)
-                    
-                    
-                    
             })
             Spacer()
                 
@@ -162,25 +159,17 @@ struct ScreenFour: View {
                             .background(
                                 Capsule()
                                     .foregroundColor(.green)
-                                    
                         )
                             .padding(.bottom)
-                        
                 })
             })
-                
-            
-                
-               
         })
             
-    
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         .background(
             Color.black
                 .ignoresSafeArea()
         )
-        
     }
 }
 

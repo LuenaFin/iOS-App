@@ -21,8 +21,15 @@
 		73D60D8726BCE592004B7840 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D60D8626BCE592004B7840 /* AuthManager.swift */; };
 		73D60D8926BCE5E7004B7840 /* AmeritradeOAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D60D8826BCE5E7004B7840 /* AmeritradeOAuthView.swift */; };
 		73D60D8B26BCE635004B7840 /* AmeritradeMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D60D8A26BCE635004B7840 /* AmeritradeMainScreen.swift */; };
+		EC57637D26D1799200810546 /* ScreenFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57637C26D1799200810546 /* ScreenFive.swift */; };
 		ECCAA4E226C7818E00F66AB3 /* ScreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAA4E126C7818E00F66AB3 /* ScreenThree.swift */; };
 		ECCAA4E426C7969A00F66AB3 /* ScreenFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAA4E326C7969900F66AB3 /* ScreenFour.swift */; };
+		ECCF53C926D2E76D004B082F /* ScreenSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF53C826D2E76D004B082F /* ScreenSix.swift */; };
+		ECCF53CB26D2F682004B082F /* ScreenSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF53CA26D2F682004B082F /* ScreenSeven.swift */; };
+		ECCF53CD26D2F738004B082F /* ScreenFive_TrailingStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF53CC26D2F738004B082F /* ScreenFive_TrailingStop.swift */; };
+		ECCF53D126D2F9E2004B082F /* ScreenSix_SetTrail.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF53D026D2F9E2004B082F /* ScreenSix_SetTrail.swift */; };
+		ECCF53D326D30292004B082F /* ScreenSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF53D226D30292004B082F /* ScreenSeven.swift */; };
+		ECCF53D526D30762004B082F /* ScreenEight.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCF53D426D30762004B082F /* ScreenEight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +70,15 @@
 		73D60D8626BCE592004B7840 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		73D60D8826BCE5E7004B7840 /* AmeritradeOAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeritradeOAuthView.swift; sourceTree = "<group>"; };
 		73D60D8A26BCE635004B7840 /* AmeritradeMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmeritradeMainScreen.swift; sourceTree = "<group>"; };
+		EC57637C26D1799200810546 /* ScreenFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFive.swift; sourceTree = "<group>"; };
 		ECCAA4E126C7818E00F66AB3 /* ScreenThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenThree.swift; sourceTree = "<group>"; };
 		ECCAA4E326C7969900F66AB3 /* ScreenFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFour.swift; sourceTree = "<group>"; };
+		ECCF53C826D2E76D004B082F /* ScreenSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSix.swift; sourceTree = "<group>"; };
+		ECCF53CA26D2F682004B082F /* ScreenSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSeven.swift; sourceTree = "<group>"; };
+		ECCF53CC26D2F738004B082F /* ScreenFive_TrailingStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFive_TrailingStop.swift; sourceTree = "<group>"; };
+		ECCF53D026D2F9E2004B082F /* ScreenSix_SetTrail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSix_SetTrail.swift; sourceTree = "<group>"; };
+		ECCF53D226D30292004B082F /* ScreenSeven.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenSeven.swift; sourceTree = "<group>"; };
+		ECCF53D426D30762004B082F /* ScreenEight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenEight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +178,13 @@
 				7345A33926B9546A00C087D6 /* ScreenTwo.swift */,
 				ECCAA4E126C7818E00F66AB3 /* ScreenThree.swift */,
 				ECCAA4E326C7969900F66AB3 /* ScreenFour.swift */,
+				EC57637C26D1799200810546 /* ScreenFive.swift */,
+				ECCF53C826D2E76D004B082F /* ScreenSix.swift */,
+				ECCF53CC26D2F738004B082F /* ScreenFive_TrailingStop.swift */,
+				ECCF53CA26D2F682004B082F /* ScreenSeven.swift */,
+				ECCF53D026D2F9E2004B082F /* ScreenSix_SetTrail.swift */,
+				ECCF53D226D30292004B082F /* ScreenSeven.swift */,
+				ECCF53D426D30762004B082F /* ScreenEight.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -346,17 +367,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				7345A33A26B9546A00C087D6 /* ScreenTwo.swift in Sources */,
+				ECCF53CD26D2F738004B082F /* ScreenFive_TrailingStop.swift in Sources */,
 				73D60D8B26BCE635004B7840 /* AmeritradeMainScreen.swift in Sources */,
 				73D60D8726BCE592004B7840 /* AuthManager.swift in Sources */,
 				7345A33826B952F800C087D6 /* ScreenOne.swift in Sources */,
 				7345A30D26B952B700C087D6 /* ContentView.swift in Sources */,
 				73D60D8426BBB459004B7840 /* WebView.swift in Sources */,
+				ECCF53CB26D2F682004B082F /* ScreenSeven.swift in Sources */,
 				7345A33C26B954B200C087D6 /* LoginView.swift in Sources */,
 				73D60D8926BCE5E7004B7840 /* AmeritradeOAuthView.swift in Sources */,
 				7345A30B26B952B700C087D6 /* LeunaApp.swift in Sources */,
 				ECCAA4E226C7818E00F66AB3 /* ScreenThree.swift in Sources */,
+				ECCF53D126D2F9E2004B082F /* ScreenSix_SetTrail.swift in Sources */,
 				73831DD226CF4C540045D1D8 /* +String.swift in Sources */,
 				ECCAA4E426C7969A00F66AB3 /* ScreenFour.swift in Sources */,
+				ECCF53D326D30292004B082F /* ScreenSeven.swift in Sources */,
+				ECCF53D526D30762004B082F /* ScreenEight.swift in Sources */,
+				ECCF53C926D2E76D004B082F /* ScreenSix.swift in Sources */,
+				EC57637D26D1799200810546 /* ScreenFive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

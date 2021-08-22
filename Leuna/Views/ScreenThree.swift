@@ -83,7 +83,7 @@ struct ScreenThree: View {
                                 .multilineTextAlignment(.trailing)
                                 .frame(height: 10)
                                 .frame(minWidth: 100)
-                                .foregroundColor(.white)
+                                .foregroundColor(.green)
                                 .keyboardType(.numberPad) // not decimalPad since we might not support fractional shares
                                 
                                 .onReceive(Just(numShares)) { newValue in
