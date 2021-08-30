@@ -12,9 +12,9 @@ struct LeunaApp: App {
     var body: some Scene {
         WindowGroup {
 //            AmeritradeMainScreen()
-            ScreenThree()
+//            ScreenThree()
 //            AmeritradeLoginView()
-//            ContentView()
+            ContentView()
 //            ScreenOne()
         }
     }
